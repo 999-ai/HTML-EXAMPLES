@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: brown;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>What is Div in CSS?</h1>
+    <p>It helps to divide and design the website.</p>
+
+    <div class="box">
+        <h2>This is the box above</h2>
+        <p>You can add whatever you want into the box.</p>
+    </div>
+
+    <div style="display: flex;">
+        <div class="box" style="flex:1;">
+            <h3>This is the first box</h3>
+            <p>You can add whatever you want into the box.</p>
+        </div>
+        <div class="box" style="flex:1;">
+            <h3>This is the second box</h3>
+            <p>You can add whatever you want into the box.</p>
+        </div>
+        <div class="box" style="flex:1;">
+            <h3>This is the third box</h3>
+            <p>You can add whatever you want into the box.</p>
+        </div>
+    </div>
+
+    <div style="margin: 30px;"></div>
+
+    <div style="display: flex;">
+        <img src="put a picture" alt="magical door">
+    </div>
+
+    <div class="box" style="flex: 1; text-align: center; padding-top: 20%; margin-top: 20px;">
+        <form action="" style="display: flex; ">
+            <label for="name">Please tell me your name:</label>
+            <input type="text" id="name" name="your name" required>
+            <br><br>
+
+            <label for="phone number">Your phone number:</label>
+            <input type="text" id="phone number" name="your phone number" required>
+            <br><br>
+
+            <label for="message">Your message:</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+            <br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
